@@ -31,7 +31,7 @@ def validar_dados(df):
             erros.append((index, e.errors()))
     return erros
 
-
+# Função principal do Streamlit
 def main():
     # Configuração do Streamlit
     st.title("Validador de Anúncios")
